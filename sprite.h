@@ -11,34 +11,21 @@ typedef struct {
 	uint8_t type;
 	uint8_t array;
 	int delay; // wait X ciclies before move
+    uint8_t velocity; // velocity change the delay of scroll
+    bool gear; // gear of player car High (true) or low (false)
 	int count_delay; // wait X ciclies before move
 	bool visible;
 	uint8_t ptr_mov;
-	uint8_t count_down_fire;// pointer of mov array (only for enemy SPACESHIP)
-	uint8_t count_down_fire_orig;
-} Sprite;
+} Car;
 
-typedef struct {
-	uint8_t id;
-    int x, y; // When Y=0 Missile is deactived
-    uint8_t image;
-	uint8_t delay; // wait X ciclies before move
-	bool visible;
-	uint8_t count_down_fire;
+void create_Car_Player(Car *car, int index);
 
-} Missile;
+void create_car(Car *sprite, int index, uint8_t delay);
 
+void create_car_array(Car *sprite, int index);
 
-void create_spaceship(Sprite *sprite, int index);
+void create_ghost(Car *sprite, uint8_t nr_sprite_type_ghost, int index, uint8_t delay);
 
-void create_aircraft(Sprite *sprite, int index, uint8_t delay);
+void moveEnemy(Car *enemy, Car *player);
 
-void create_spaceship_array(Sprite *sprite, int index);
-
-void create_ghost(Sprite *sprite, uint8_t nr_sprite_type_ghost, int index, uint8_t delay);
-
-void moveEnemy(Sprite *enemy, Sprite *player);
-
-void moveMissileEnemy();
-
-int checkHitPlayer();
+int checkHitCar_Player();

@@ -714,7 +714,7 @@ int main(void)
 	//WriteStringTolUART("Ciao");
 
 
-	/*
+
 	volatile unsigned char attendi = 0xff;
 	volatile bool exitPrg = true;
 
@@ -760,7 +760,7 @@ int main(void)
 				Initialise();
 		}
 	}
-*/
+
 	// Clear the screen and return to basic
 	clrscr();
 	ReturnToBasic();

@@ -11,7 +11,7 @@ rm -f *.o jroad.neo jroad.map neo6502.lib{,.temp}
 #-v -fverbose-asm
 
 #/Users/giovanni.pozzobon/Documents/GitHub/llvm-mos-sdk/bin/mos-neo6502-clang -Os  main.c api.c quicksort.c sprite.c -o main.neo 
-/Users/giovanni.pozzobon/Documents/GitHub/llvm-mos-sdk/bin/mos-neo6502-clang -Os  main.c api.c -o jroad.neo 
+/Users/giovanni.pozzobon/Documents/GitHub/llvm-mos-sdk/bin/mos-neo6502-clang -Os  main.c api.c utility.c sprite.c -o jroad.neo 
 
 
 # launch emulator

@@ -27,9 +27,9 @@
 
 
 //Sprite
-#define IMAGE_ENEMY 3 // First Enemy image
+#define IMAGE_ENEMY 12 // First Enemy image
 #define IMAGE_GHOST 9 // First Enemy image
-#define IMAGE_PLAYER 0 // Player image
+#define IMAGE_PLAYER 11 // Player image
 #define FIRST_POS_X_PLAYER 160
 #define FIRST_POS_Y_PLAYER 220
 #define IMAGE_MISSILE 4 // Player image

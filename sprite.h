@@ -20,7 +20,7 @@ typedef struct {
 
 void create_Car_Player(Car *car, int index);
 
-void create_car(Car *sprite, int index, uint8_t delay);
+void create_car(Car *sprite, int index);
 
 void create_car_array(Car *sprite, int index);
 
@@ -28,4 +28,5 @@ void create_ghost(Car *sprite, uint8_t nr_sprite_type_ghost, int index, uint8_t 
 
 void moveEnemy(Car *enemy, Car *player);
 
-int checkHitCar_Player();
+void checkHitCar_Player();
+

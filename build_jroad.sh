@@ -32,7 +32,7 @@ export CC65_HOME="$_CC65_HOME"
 ca65 crt0.s
 ar65 a neo6502.lib crt0.o
 cl65 --static-locals -t none -C neo6502.cfg -O --cpu 65c02 -m main.map \
-     -o main.neo api.c quicksort.c sprite.c main.c neo6502.lib
+     -o main.neo main.c api.c utility.c sprite.c neo6502.lib
  
 # launch emulator
 test -f main.neo && ./neo main.neo@800 cold

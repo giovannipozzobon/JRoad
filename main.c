@@ -11,6 +11,7 @@
 const unsigned char nameFileGfx[] = {12, 'g', 'r', 'a', 'p', 'h', 'i', 'c', 's', '.', 'g', 'f', 'x'};
 
 int scroll_pointer = 0, room_active = 0;
+int score;
 unsigned char *ptr_room; // the room active
 // map of screen
 unsigned char map[1803];
@@ -79,6 +80,8 @@ void Initialise()
 	// sound of explosion
 	ResetChannelSound(0);
 	PlaySoundChannel(0, SOUND_PLAYER_HIT);
+
+	score =0;
 }
 
 void print_dashboard_info()
@@ -87,7 +90,7 @@ void print_dashboard_info()
 	// the first byte of buffer is the lentgh of string (fixed length string)
 	//sprintf(buffer + 1, "SPEED %1d GEAR %1dLIFES: %1d  SCORE: %1d  LEVEL: %1d", player.velocity, player.velocity, player.velocity, player.velocity );
 	SetColor(0xf0, 2, 1, 1, 0);
-	sprintf(buffer + 1, "SPEED %u ", player.velocity-100);
+	sprintf(buffer + 1, "SPEED %u   SCORE %u", player.velocity-100, score);
 	Gfx_WriteString(POS_DASHBOARD_INFO, SCREEN_HEIGHT - DASHBOARD_HEIGHT, buffer);
 }
 
@@ -186,11 +189,12 @@ int main() {
 	DrawSprite(player.id, player.x, player.y, player.image);
 	level =1;
 
-	create_enemy();
+	//create_enemy();
 
     while(1) {
         
 		movement();
+		score++;
 		
 		if (acceleration<1) {
 			
@@ -200,7 +204,7 @@ int main() {
 			acceleration--;
 		}
 
-		moveAllEnemies();
+		//moveAllEnemies();
 		checkHitCar_Kerbs();
 		//checkHitCar_Player();
 		nop_delay(2200-(player.velocity*10));

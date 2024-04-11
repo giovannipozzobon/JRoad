@@ -1,0 +1,731 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=0003E9  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000764  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=00074A  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000004  Align=00001  Fill=0000
+api.o:
+    CODE              Offs=0003E9  Size=0011CD  Align=00001  Fill=0000
+    BSS               Offs=00074A  Size=000025  Align=00001  Fill=0000
+    DATA              Offs=000004  Size=000031  Align=00001  Fill=0000
+utility.o:
+    CODE              Offs=0015B6  Size=000024  Align=00001  Fill=0000
+    BSS               Offs=00076F  Size=000001  Align=00001  Fill=0000
+sprite.o:
+    CODE              Offs=0015DA  Size=0001FA  Align=00001  Fill=0000
+    BSS               Offs=000770  Size=000102  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000011  Align=00001  Fill=0000
+neo6502.lib(crt0.o):
+    STARTUP           Offs=000000  Size=000021  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_directerrno.o):
+    CODE              Offs=0017D4  Size=00000A  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_hextab.o):
+    RODATA            Offs=000764  Size=000010  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_longminstr.o):
+    RODATA            Offs=000774  Size=00000C  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_oserror.o):
+    BSS               Offs=000872  Size=000001  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_printf.o):
+    CODE              Offs=0017DE  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=000873  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=000046  Size=000003  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(_seterrno.o):
+    CODE              Offs=001B83  Size=000009  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(add.o):
+    CODE              Offs=001B8C  Size=00001C  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(addysp.o):
+    CODE              Offs=001BA8  Size=00000E  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(aslax2.o):
+    CODE              Offs=001BB6  Size=00000B  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(asrax4.o):
+    CODE              Offs=001BC1  Size=000019  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(axlong.o):
+    CODE              Offs=001BDA  Size=00000D  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(condes.o):
+    CODE              Offs=001BE7  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000049  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(copydata.o):
+    CODE              Offs=001BF3  Size=00002D  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ctype.o):
+    RODATA            Offs=000780  Size=00008B  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ctypemask.o):
+    CODE              Offs=001C20  Size=00001E  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(decax1.o):
+    CODE              Offs=001C3E  Size=000007  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(decaxy.o):
+    CODE              Offs=001C45  Size=000009  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(decsp4.o):
+    CODE              Offs=001C4E  Size=00000D  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(decsp6.o):
+    CODE              Offs=001C5B  Size=00000D  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(errno.o):
+    BSS               Offs=00089E  Size=000002  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(icmp.o):
+    CODE              Offs=001C68  Size=00002E  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incax3.o):
+    CODE              Offs=001C96  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incaxy.o):
+    CODE              Offs=001C9B  Size=00000B  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp1.o):
+    CODE              Offs=001CA6  Size=000007  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp2.o):
+    CODE              Offs=001CAD  Size=000016  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp3.o):
+    CODE              Offs=001CC3  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp4.o):
+    CODE              Offs=001CC8  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp5.o):
+    CODE              Offs=001CCD  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp6.o):
+    CODE              Offs=001CD2  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(incsp8.o):
+    CODE              Offs=001CD7  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ldaxi.o):
+    CODE              Offs=001CDC  Size=00000D  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ldaxsp.o):
+    CODE              Offs=001CE9  Size=000009  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ldeaxysp.o):
+    CODE              Offs=001CF2  Size=000013  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(lneg.o):
+    CODE              Offs=001D05  Size=00001E  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(lpush.o):
+    CODE              Offs=001D23  Size=000021  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(ltoa.o):
+    CODE              Offs=001D44  Size=000095  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(memcpy.o):
+    CODE              Offs=001DD9  Size=00003C  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(mod.o):
+    CODE              Offs=001E15  Size=000011  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(mul8.o):
+    CODE              Offs=001E26  Size=00003A  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(mulax10.o):
+    CODE              Offs=001E60  Size=000019  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(mulax7.o):
+    CODE              Offs=001E79  Size=000019  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(negabs.o):
+    CODE              Offs=001E92  Size=000012  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(popptr1.o):
+    CODE              Offs=001EA4  Size=00000E  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(push1.o):
+    CODE              Offs=001EB2  Size=000005  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(pusha.o):
+    CODE              Offs=001EB7  Size=000016  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(pushax.o):
+    CODE              Offs=001ECD  Size=00001A  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(pushw.o):
+    CODE              Offs=001EE7  Size=00000F  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(pushwsp.o):
+    CODE              Offs=001EF6  Size=00001C  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(rand.o):
+    CODE              Offs=001F12  Size=000031  Align=00001  Fill=0000
+    DATA              Offs=00006E  Size=000004  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(shelp.o):
+    CODE              Offs=001F43  Size=000020  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(shl.o):
+    CODE              Offs=001F63  Size=000033  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(sprintf.o):
+    CODE              Offs=001F96  Size=00002B  Align=00001  Fill=0000
+    BSS               Offs=0008A0  Size=000001  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(staspidx.o):
+    CODE              Offs=001FC1  Size=000016  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(staxsp.o):
+    CODE              Offs=001FD7  Size=00000B  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(staxspi.o):
+    CODE              Offs=001FE2  Size=00001B  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(strlen.o):
+    CODE              Offs=001FFD  Size=000016  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(strlower.o):
+    CODE              Offs=002013  Size=000027  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(sub.o):
+    CODE              Offs=00203A  Size=000015  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(udiv.o):
+    CODE              Offs=00204F  Size=00004F  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(vsnprintf.o):
+    CODE              Offs=00209E  Size=0000DA  Align=00001  Fill=0000
+    DATA              Offs=000072  Size=000008  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(vsprintf.o):
+    CODE              Offs=002178  Size=000012  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(zerobss.o):
+    CODE              Offs=00218A  Size=000023  Align=00001  Fill=0000
+/opt/homebrew/share/cc65/lib/none.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000000  000019  00001A  00001
+STARTUP               000800  000820  000021  00001
+ONCE                  000821  00082C  00000C  00001
+CODE                  00082D  0029D9  0021AD  00001
+RODATA                0029DA  0031E4  00080B  00001
+DATA                  0031E5  00325E  00007A  00001
+BSS                   00325F  003AFF  0008A1  00001
+
+
+Exports list by name:
+---------------------
+_CheckJoypad              001694 RLA    _DrawSprite               001402 RLA    
+_DrawTileMap              001957 RLA    _Gfx_WriteString          000CD0 RLA    
+_LoadGrafix               00136B RLA    _MoveSprite               0014C7 RLA    
+_PlaySoundChannel         000C8C RLA    _ResetChannelSound        000C5A RLA    
+_SetColor                 001819 RLA    _SetCurrentTileMap        0018AB RLA    
+__BSS_RUN__               00325F RLA    __BSS_SIZE__              0008A1 REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     00082D RLA    
+__DATA_LOAD__             0031E5 RLA    __DATA_RUN__              0031E5 RLA    
+__DATA_SIZE__             00007A REA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      0031E5 RLA    __RAM_SIZE__              00EE00 REA    
+__RAM_START__             000800 RLA    __STACKSIZE__             000400 REA    
+__STARTUP__               000001 REA    __ctype                   00315A RLA    
+__ctypeidx                003165 RLA    __directerrno             002001 RLA    
+__errno                   003AFD RLA    __hextab                  00313E RLA    
+__longminstr              00314E RLA    __oserror                 003AD1 RLA    
+__printf                  0020FE RLA    __seterrno                0023B0 RLA    
+_bit_check                001DE3 RLA    _create_car               001E07 RLA    
+_enemies                  0039CF RLA    _ltoa                     002589 RLA    
+_main                     000B93 RLA    _memcpy                   002606 RLA    
+_moveEnemy                001E9C RLA    _nop_delay                001A21 RLA    
+_player                   00321A RLA    _rand                     00273F RLA    
+_sprintf                  0027C3 RLA    _strlen                   00282A RLA    
+_strlower                 002840 RLA    _ultoa                    0025CA RLA    
+_vsprintf                 0029A5 RLA    addysp                    0023D6 RLA    
+addysp1                   0023D5 RLA    aslax2                    0023E3 RLA    
+aslaxy                    002797 RLA    asrax4                    0023EE RLA    
+axlong                    002407 RLA    axulong                   00240D RLA    
+copydata                  002420 RLA    ctypemaskdirect           002451 RLA    
+decax1                    00246B RLA    decaxy                    002472 RLA    
+decsp4                    00247B RLA    decsp6                    002488 RLA    
+donelib                   002414 RLA    incax3                    0024C3 RLA    
+incaxy                    0024CA RLA    incsp1                    0024D3 RLA    
+incsp2                    0024E2 RLA    incsp3                    0024F0 RLA    
+incsp4                    0024F5 RLA    incsp5                    0024FA RLA    
+incsp6                    0024FF RLA    incsp8                    002504 RLA    
+initlib                   000821 RLA    ldax0sp                   002516 RLA    
+ldaxidx                   00250B RLA    ldaxysp                   002518 RLA    
+ldeaxysp                  002521 RLA    mulax10                   00268D RLA    
+mulax7                    0026A6 RLA    negax                     0026C3 RLA    
+negeax                    002532 RLA    popax                     0024DA RLA    
+popptr1                   0026D1 RLA    popsargsudiv16            002770 RLA    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+ptr3                      00000C RLZ    ptr4                      00000E RLZ    
+push0                     0026FA RLA    push1                     0026DF RLA    
+pusha                     0026E8 RLA    pusha0                    0026FC RLA    
+pushax                    0026FE RLA    pusheax                   002559 RLA    
+pushw0sp                  002723 RLA    pushwidx                  002716 RLA    
+pushwysp                  002725 RLA    regbank                   000014 RLZ    
+regsave                   000004 RLZ    sp                        000000 RLZ    
+sreg                      000002 RLZ    staspidx                  0027EE RLA    
+stax0sp                   002804 RLA    staxspidx                 00280F RLA    
+staxysp                   002806 RLA    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    tosadda0                  0023B9 RLA    
+tosicmp                   002497 RLA    tosicmp0                  002495 RLA    
+tosmoda0                  002642 RLA    tosmodax                  002644 RLA    
+tosmula0                  002653 RLA    tossubax                  002869 RLA    
+udiv16                    00288D RLA    vsnprintf                 0028CE RLA    
+zerobss                   0029B7 RLA    
+
+
+Exports list by value:
+----------------------
+sp                        000000 RLZ    __CONSTRUCTOR_COUNT__     000000 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __STARTUP__               000001 REA    
+sreg                      000002 RLZ    regsave                   000004 RLZ    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+ptr3                      00000C RLZ    ptr4                      00000E RLZ    
+tmp1                      000010 RLZ    tmp2                      000011 RLZ    
+regbank                   000014 RLZ    __DATA_SIZE__             00007A REA    
+__STACKSIZE__             000400 REA    __RAM_START__             000800 RLA    
+initlib                   000821 RLA    __CONSTRUCTOR_TABLE__     00082D RLA    
+__BSS_SIZE__              0008A1 REA    _main                     000B93 RLA    
+_ResetChannelSound        000C5A RLA    _PlaySoundChannel         000C8C RLA    
+_Gfx_WriteString          000CD0 RLA    _LoadGrafix               00136B RLA    
+_DrawSprite               001402 RLA    _MoveSprite               0014C7 RLA    
+_CheckJoypad              001694 RLA    _SetColor                 001819 RLA    
+_SetCurrentTileMap        0018AB RLA    _DrawTileMap              001957 RLA    
+_nop_delay                001A21 RLA    _bit_check                001DE3 RLA    
+_create_car               001E07 RLA    _moveEnemy                001E9C RLA    
+__directerrno             002001 RLA    __printf                  0020FE RLA    
+__seterrno                0023B0 RLA    tosadda0                  0023B9 RLA    
+addysp1                   0023D5 RLA    addysp                    0023D6 RLA    
+aslax2                    0023E3 RLA    asrax4                    0023EE RLA    
+axlong                    002407 RLA    axulong                   00240D RLA    
+donelib                   002414 RLA    copydata                  002420 RLA    
+ctypemaskdirect           002451 RLA    decax1                    00246B RLA    
+decaxy                    002472 RLA    decsp4                    00247B RLA    
+decsp6                    002488 RLA    tosicmp0                  002495 RLA    
+tosicmp                   002497 RLA    incax3                    0024C3 RLA    
+incaxy                    0024CA RLA    incsp1                    0024D3 RLA    
+popax                     0024DA RLA    incsp2                    0024E2 RLA    
+incsp3                    0024F0 RLA    incsp4                    0024F5 RLA    
+incsp5                    0024FA RLA    incsp6                    0024FF RLA    
+incsp8                    002504 RLA    ldaxidx                   00250B RLA    
+ldax0sp                   002516 RLA    ldaxysp                   002518 RLA    
+ldeaxysp                  002521 RLA    negeax                    002532 RLA    
+pusheax                   002559 RLA    _ltoa                     002589 RLA    
+_ultoa                    0025CA RLA    _memcpy                   002606 RLA    
+tosmoda0                  002642 RLA    tosmodax                  002644 RLA    
+tosmula0                  002653 RLA    mulax10                   00268D RLA    
+mulax7                    0026A6 RLA    negax                     0026C3 RLA    
+popptr1                   0026D1 RLA    push1                     0026DF RLA    
+pusha                     0026E8 RLA    push0                     0026FA RLA    
+pusha0                    0026FC RLA    pushax                    0026FE RLA    
+pushwidx                  002716 RLA    pushw0sp                  002723 RLA    
+pushwysp                  002725 RLA    _rand                     00273F RLA    
+popsargsudiv16            002770 RLA    aslaxy                    002797 RLA    
+_sprintf                  0027C3 RLA    staspidx                  0027EE RLA    
+stax0sp                   002804 RLA    staxysp                   002806 RLA    
+staxspidx                 00280F RLA    _strlen                   00282A RLA    
+_strlower                 002840 RLA    tossubax                  002869 RLA    
+udiv16                    00288D RLA    vsnprintf                 0028CE RLA    
+_vsprintf                 0029A5 RLA    zerobss                   0029B7 RLA    
+__hextab                  00313E RLA    __longminstr              00314E RLA    
+__ctype                   00315A RLA    __ctypeidx                003165 RLA    
+__DESTRUCTOR_TABLE__      0031E5 RLA    __DATA_LOAD__             0031E5 RLA    
+__DATA_RUN__              0031E5 RLA    _player                   00321A RLA    
+__BSS_RUN__               00325F RLA    _enemies                  0039CF RLA    
+__oserror                 003AD1 RLA    __errno                   003AFD RLA    
+__RAM_SIZE__              00EE00 REA    
+
+
+Imports list:
+-------------
+_CheckJoypad (api.o):
+    main.o                    main.s(22)
+_DrawSprite (api.o):
+    sprite.o                  sprite.s(19)
+    main.o                    main.s(20)
+_DrawTileMap (api.o):
+    main.o                    main.s(25)
+_Gfx_WriteString (api.o):
+    main.o                    main.s(18)
+_LoadGrafix (api.o):
+    main.o                    main.s(19)
+_MoveSprite (api.o):
+    main.o                    main.s(21)
+_PlaySoundChannel (api.o):
+    main.o                    main.s(17)
+_ResetChannelSound (api.o):
+    main.o                    main.s(16)
+_SetColor (api.o):
+    main.o                    main.s(23)
+_SetCurrentTileMap (api.o):
+    main.o                    main.s(24)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s(8)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__RAM_SIZE__ ([linker generated]):
+    crt0.o                    crt0.s(9)
+__RAM_START__ ([linker generated]):
+    crt0.o                    crt0.s(9)
+__STACKSIZE__ ([linker generated]):
+    crt0.o                    crt0.s(10)
+__STARTUP__ (crt0.o):
+    main.o                    main.s(13)
+__ctype (ctype.o):
+    ctypemask.o               common/ctypemask.s(23)
+__ctypeidx (ctype.o):
+    ctypemask.o               common/ctypemask.s(24)
+__directerrno (_directerrno.o):
+    vsnprintf.o               /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/errno.inc(7)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__oserror (_oserror.o):
+    _directerrno.o            /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/errno.inc(7)
+__printf (_printf.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+__seterrno (_seterrno.o):
+    _directerrno.o            /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/errno.inc(9)
+_bit_check (utility.o):
+    main.o                    main.s(29)
+_create_car (sprite.o):
+    main.o                    main.s(27)
+_enemies (sprite.o):
+    main.o                    main.s(41)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_main (main.o):
+    crt0.o                    crt0.s(6)
+_memcpy (memcpy.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+_moveEnemy (sprite.o):
+    main.o                    main.s(28)
+_nop_delay (api.o):
+    main.o                    main.s(26)
+_player (sprite.o):
+    main.o                    main.s(40)
+_rand (rand.o):
+    sprite.o                  sprite.s(13)
+_sprintf (sprintf.o):
+    main.o                    main.s(14)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_vsprintf (vsprintf.o):
+    sprintf.o                 common/sprintf.s(8)
+addysp (addysp.o):
+    sprintf.o                 common/sprintf.s(8)
+    incsp8.o                  runtime/incsp8.s(8)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s(8)
+aslax2 (aslax2.o):
+    main.o                    main.s(2547)
+aslaxy (shl.o):
+    utility.o                 utility.s(49)
+asrax4 (asrax4.o):
+    main.o                    main.s(2547)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+copydata (copydata.o):
+    crt0.o                    crt0.s(12)
+ctypemaskdirect (ctypemask.o):
+    strlower.o                common/strlower.s(14)
+decax1 (decax1.o):
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+decaxy (decaxy.o):
+    main.o                    main.s(2547)
+decsp4 (decsp4.o):
+    sprintf.o                 common/sprintf.s(8)
+    lpush.o                   runtime/lpush.s(12)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
+donelib (condes.o):
+    crt0.o                    crt0.s(12)
+incax3 (incax3.o):
+    main.o                    main.s(2547)
+incaxy (incaxy.o):
+    incax3.o                  runtime/incax3.s(8)
+incsp1 (incsp1.o):
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+incsp2 (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    staxspi.o                 runtime/staxspi.s(9)
+    staspidx.o                runtime/staspidx.s(8)
+    popptr1.o                 runtime/popptr1.s(8)
+    utility.o                 utility.s(49)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+incsp3 (incsp3.o):
+    api.o                     api.s(2785)
+incsp4 (incsp4.o):
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+incsp5 (incsp5.o):
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+incsp6 (incsp6.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+incsp8 (incsp8.o):
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+initlib (condes.o):
+    crt0.o                    crt0.s(12)
+ldax0sp (ldaxsp.o):
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+ldaxidx (ldaxi.o):
+    sprite.o                  sprite.s(344)
+    main.o                    main.s(2547)
+ldaxysp (ldaxsp.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+ldeaxysp (ldeaxysp.o):
+    api.o                     api.s(2785)
+mulax10 (mulax10.o):
+    api.o                     api.s(2785)
+    main.o                    main.s(2547)
+mulax7 (mulax7.o):
+    api.o                     api.s(2785)
+negax (negabs.o):
+    shelp.o                   runtime/shelp.s(11)
+    mod.o                     runtime/mod.s(11)
+negeax (lneg.o):
+    ltoa.o                    common/ltoa.s(9)
+popax (incsp2.o):
+    memcpy.o                  common/memcpy.s(14)
+    ltoa.o                    common/ltoa.s(9)
+    _printf.o                 common/_printf.s(11)
+    vsnprintf.o               common/vsnprintf.s(9)
+    shl.o                     runtime/shl.s(15)
+    shelp.o                   runtime/shelp.s(11)
+popptr1 (popptr1.o):
+    memcpy.o                  common/memcpy.s(14)
+    ltoa.o                    common/ltoa.s(9)
+    udiv.o                    runtime/udiv.s(9)
+    mul8.o                    runtime/mul8.s(9)
+popsargsudiv16 (shelp.o):
+    mod.o                     runtime/mod.s(11)
+ptr1 (zeropage.o):
+    strlower.o                common/strlower.s(13)
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(12)
+    vsnprintf.o               common/vsnprintf.s(11)
+    zerobss.o                 common/zerobss.s(9)
+    udiv.o                    runtime/udiv.s(10)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
+    shelp.o                   runtime/shelp.s(12)
+    pushw.o                   runtime/pushw.s(9)
+    popptr1.o                 runtime/popptr1.s(9)
+    mulax7.o                  runtime/mulax7.s(10)
+    mulax10.o                 runtime/mulax10.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    copydata.o                common/copydata.s(9)
+    sprite.o                  sprite.s(11)
+    api.o                     api.s(11)
+    main.o                    main.s(11)
+ptr2 (zeropage.o):
+    strlower.o                common/strlower.s(13)
+    strlen.o                  common/strlen.s(12)
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(12)
+    copydata.o                common/copydata.s(9)
+ptr3 (zeropage.o):
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    shelp.o                   runtime/shelp.s(12)
+    mul8.o                    runtime/mul8.s(10)
+push0 (pushax.o):
+    main.o                    main.s(2547)
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
+pusha (pusha.o):
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    utility.o                 utility.s(49)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+pusha0 (pushax.o):
+    push1.o                   runtime/push1.s(8)
+    main.o                    main.s(2547)
+pushax (pushax.o):
+    _printf.o                 common/_printf.s(11)
+    pushw.o                   runtime/pushw.s(8)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+pusheax (lpush.o):
+    _printf.o                 common/_printf.s(11)
+    api.o                     api.s(2785)
+pushw0sp (pushwsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+pushwidx (pushw.o):
+    sprite.o                  sprite.s(344)
+    main.o                    main.s(2547)
+pushwysp (pushwsp.o):
+    sprite.o                  sprite.s(344)
+regbank (zeropage.o):
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(14)
+regsave (zeropage.o):
+    api.o                     api.s(10)
+sp (zeropage.o):
+    memcpy.o                  common/memcpy.s(15)
+    decsp6.o                  runtime/decsp6.s(8)
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(11)
+    vsnprintf.o               common/vsnprintf.s(11)
+    decsp4.o                  runtime/decsp4.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    sub.o                     runtime/sub.s(9)
+    staxspi.o                 runtime/staxspi.s(10)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    lpush.o                   runtime/lpush.s(13)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    icmp.o                    runtime/icmp.s(9)
+    add.o                     runtime/add.s(12)
+    crt0.o                    /opt/homebrew/share/cc65/asminc/zeropage.inc(11)
+    sprite.o                  sprite.s(10)
+    utility.o                 utility.s(10)
+    api.o                     api.s(10)
+sreg (zeropage.o):
+    lneg.o                    runtime/lneg.s(11)
+    ltoa.o                    common/ltoa.s(11)
+    axlong.o                  runtime/axlong.s(9)
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(11)
+    udiv.o                    runtime/udiv.s(10)
+    mod.o                     runtime/mod.s(12)
+    lpush.o                   runtime/lpush.s(13)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
+    icmp.o                    runtime/icmp.s(9)
+    api.o                     api.s(10)
+staspidx (staspidx.o):
+    sprite.o                  sprite.s(344)
+    api.o                     api.s(2785)
+    api.o                     api.s(2785)
+stax0sp (staxsp.o):
+    api.o                     api.s(2785)
+staxspidx (staxspi.o):
+    sprite.o                  sprite.s(344)
+staxysp (staxsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+    api.o                     api.s(2785)
+tmp1 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20221106-4106-t7shur/cc65-2.19/asminc/zeropage.inc(13)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    shl.o                     runtime/shl.s(16)
+    shelp.o                   runtime/shelp.s(12)
+    mod.o                     runtime/mod.s(12)
+    incaxy.o                  runtime/incaxy.s(8)
+    decaxy.o                  runtime/decaxy.s(8)
+    copydata.o                common/copydata.s(9)
+    asrax4.o                  runtime/asrax4.s(9)
+    aslax2.o                  runtime/aslax2.s(8)
+    add.o                     runtime/add.s(12)
+tmp2 (zeropage.o):
+    shelp.o                   runtime/shelp.s(12)
+tosadda0 (add.o):
+    api.o                     api.s(2785)
+tosicmp (icmp.o):
+    api.o                     api.s(2785)
+tosicmp0 (icmp.o):
+    main.o                    main.s(2547)
+tosmoda0 (mod.o):
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+    sprite.o                  sprite.s(344)
+tosmodax (mod.o):
+    sprite.o                  sprite.s(344)
+tosmula0 (mul8.o):
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+    main.o                    main.s(2547)
+tossubax (sub.o):
+    main.o                    main.s(2547)
+udiv16 (udiv.o):
+    shelp.o                   runtime/shelp.s(11)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                common/vsprintf.s(9)
+zerobss (zerobss.o):
+    crt0.o                    crt0.s(12)
+
